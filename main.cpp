@@ -122,10 +122,10 @@ int main() {
 
 
 
-    std::string train_x_filename = "C:\\Users\\KCL\\CLionProjects\\dnn_temp\\train-images.idx3-ubyte";
-    std::string train_y_filename = "C:\\Users\\KCL\\CLionProjects\\dnn_temp\\train-labels.idx1-ubyte";
-    std::string test_x_filename = "C:\\Users\\KCL\\CLionProjects\\dnn_temp\\t10k-images.idx3-ubyte";
-    std::string test_y_filename = "C:\\Users\\KCL\\CLionProjects\\dnn_temp\\t10k-labels.idx1-ubyte";
+    std::string train_x_filename = "../train-images.idx3-ubyte";
+    std::string train_y_filename = "../train-labels.idx1-ubyte";
+    std::string test_x_filename = "../t10k-images.idx3-ubyte";
+    std::string test_y_filename = "../t10k-labels.idx1-ubyte";
 
     std::vector<std::vector<double> > train_x, train_y, test_x, test_y;
     ReadMNIST(train_x_filename, num_train_data, 784, train_x, train_y_filename, num_train_data, 10, train_y);
