@@ -12,3 +12,8 @@
 * Matrix Assignment – A = B
 
 *Assign each thread has its own (A.row / numthread) tasks and the last thread with (A.row /numthread)+(A.row % numthread) tasks.*
+
+## Run the code
+1. download and extract the images files and labels file at http://yann.lecun.com/exdb/mnist/
+2. put the files at the same folder with Main.cpp
+3. compile and execute
