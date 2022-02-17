@@ -1,4 +1,4 @@
-# DNN
+# DNN MNIST Classification 
 ## This project is implemented by C++11 and paralleled with threading
 * **Main.cpp** : load data and execute the main algorithm
 * **Matrix.h** : implement all matrix operation included parallization
